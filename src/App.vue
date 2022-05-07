@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <viewer v-viewer="{toolbar: false}">
+      <img alt="Vue logo" src="./assets/logo.png">
+    </viewer>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
