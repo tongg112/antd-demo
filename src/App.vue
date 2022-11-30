@@ -3,17 +3,18 @@
     <viewer v-viewer="{toolbar: false}">
       <img alt="Vue logo" src="./assets/logo.png">
     </viewer>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+<!--    <HelloWorld msg="Welcome to Your Vue.js App"/>-->
+    <LuckysheetDemo msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import LuckysheetDemo from './components/LuckysheetDemo.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    LuckysheetDemo
   }
 }
 </script>
